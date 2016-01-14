@@ -1,5 +1,0 @@
-Create Port Forward:
-netsh interface portproxy add v4tov4 listenport=<From Port> listenaddress=<From IP> connectport=<To Port> connectaddress=<To IP>
-
-Remove Port Forward:
-netsh interface portproxy delete v4tov4 listenport=<From Port> listenaddress=<From IP>
